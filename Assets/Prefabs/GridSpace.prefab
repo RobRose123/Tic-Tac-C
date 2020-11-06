@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 857028667252149018}
   - component: {fileID: 857028667252149019}
   - component: {fileID: 857028667252149016}
+  - component: {fileID: -5287471478953192462}
   m_Layer: 5
   m_Name: GridSpace
   m_TagString: Untagged
@@ -196,4 +197,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 857028667252149019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -5287471478953192462}
+        m_MethodName: SetSpace
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-5287471478953192462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857028667252148998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc473b152ab5f724786d34658f619974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 857028667252149016}
+  buttonText: {fileID: 857028667118802819}
+  playerSide: X
