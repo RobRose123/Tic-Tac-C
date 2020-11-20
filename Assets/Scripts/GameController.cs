@@ -8,6 +8,11 @@ public class GameController : MonoBehaviour
 
     public Text[] buttonList;
 
+    private void Awake()
+    {
+        SetGameContollerReferenceOnButton();
+    }
+
     void SetGameContollerReferenceOnButton()
     {
         for (int i = 0; i < buttonList.Length; i++)

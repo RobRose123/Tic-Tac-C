@@ -8,6 +8,7 @@ public class GridSpaces : MonoBehaviour
 
     public Button button;
     public Text buttonText;
+    public string playerSide;
 
     private GameController gameController;
     
