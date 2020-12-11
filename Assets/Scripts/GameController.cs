@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     private string playerSide;
 
     public GameObject gameOverPanel;
-    public string gameOverText;
+    public Text gameOverText;
 
     private void Awake()
     {
